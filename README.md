@@ -1,3 +1,2 @@
-#my-website
-
-this is my personal portfolio website
+# Personal Portfolio Website
+A personal portfolio to showcase my skills, projects, and contact information.
