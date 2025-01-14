@@ -7,13 +7,96 @@
         <title>hi, i'm gabe</title>
     </head>
     <body>
-        <h1>hi, i'm gabe yuan</h1>
-        <h2> navigation links: </h2>
-        <a href  = "projects.html">projects</a>
-        <h3>social media/contact me</h3>
-        <a target="_blank" href="https://www.github.com">github</a>
-        <a target="_blank" href="https://www.linkedin.com/in/gabrielyuan">linkedin</a>
-
+        <div id="navbar">
+            <h1>hi, i'm gabe yuan</h1>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#exp">Experiences</a>
+        </div>
+        <div id="profile">
+            <div><img width="250" src="images/profile-icon.png" /></div>
+            <div id="profile-text">
+                <p>hello, i am</p>
+                <h2>gabe yuan</h2>
+                <p>boston university student</p>
+            <div class="icons">
+                <a target="_blank" href="https://www.linkedin.com/in/gabrielyuan"><img id="linkedin-img" width="60" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" /></a>
+                <a target="_blank" href="https://www.github.com/gabeqyuan"><img id="github-img" width="60" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
+            </div>
+            </div>
+        </div>
+        <div id="chat">
+            <form>
+                <h2>ask away!</h2>
+                <input type="text" id="questionInput" placeholder="what would you like to ask?">
+                <button type ="submit">submit</button>
+            </form>
+        </div>
+        <div id="about">
+            <h2>
+                <button class="toggler">hide</button>
+                about me
+            </h2>
+            <p>
+                i'm a student at boston university studying computer science and business. feel free to
+                contact me at gabeyuan7@gmail.com!
+            </p>
+            <h3>My Skills</h3>
+            <div class="icons">
+                <img width="60" src="images/html-5-svgrepo-com.svg">
+                <img width="60" src="images/css-3-svgrepo-com.svg">
+                <img width="60" src="images/python-svgrepo-com.svg">
+                <img width="60" src ="images/javascript-svgrepo-com.svg">
+            </div>
+        </div>
+        <div id="projects">
+            <h2>projects</h2>
+            <div class="project">
+                <h4>project 1 name</h4>
+                <p>project 1 description</p>
+                <a target="_blank" href="https://github.com/"><button class="github"><img class="github-inline" width="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /> project 1</button></a>
+            </div>
+            <div class="project">
+                <h4>project 2 name</h4>
+                <p>project 2 description</p>
+                <a target="_blank" href="https://github.com/"><button class="github"><img class="github-inline" width="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /> project 2</button></a>
+            </div>
+        </div>
+        <div id="exp">
+            <h2>Experiences</h2>
+            <div class="job">
+                <h3>Job Title</h3>
+                <h4>Company Name, Location, State</h4>
+                <p class="date">Dates - Dates</p>
+                <ul>
+                    <li>
+                        Write some stuff
+                    </li>
+                    <li>
+                        Write some stuff
+                    </li>
+                    <li>
+                        Write some stuff
+                    </li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Job Title</h3>
+                <h4>Company Name, Location, State</h4>
+                <p class="date">Dates - Dates</p>
+                <ul>
+                    <li>
+                        Write some stuff
+                    </li>
+                    <li>
+                        Write some stuff
+                    </li>
+                    <li>
+                        Write some stuff
+                    </li>
+                </ul>
+            <div>
+        </div>
     </body>
 
 </html>
