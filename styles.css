@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway";
+    background-color: #dedede;
+    color: #333;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #dedede;
+    padding: 30px 0;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #333;
+    font-size: 17px;
+}
+#navbar .left {
+    flex: 1;
+    padding-left: 40px;
+}
+
+#navbar .right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 40px;
+}
+
+#navbar a {
+    color: #333;
+    text-decoration: none;
+}
+
+#navbar a:visited {
+    color:#333;
+}
+
+#navbar a:hover {
+    color: #333;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+#projects h2,
+#about h2,
+#chat h2,
+#exp h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+}
+
+#profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-text img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#profile h2 {
+    font-size: 43px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #333;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#about p {
+    text-align: center;
+}
+
+.project,
+.job {
+    background: #dddddd;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 60%;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#projects li,
+.job li {
+    margin-left: 25px;
+}
+
+button {
+    padding: 0.4rem 0.8rem;
+    border: 0.2rem solid #333;
+    border-radius: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dededea3;
+    color: #333;
+}
+
+.github {
+    border-width: 0.15rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 16px;
+}
+
+.project button {
+    padding-left: 0.5rem;
+}
+
+.project button:hover {
+    color: #333;
+}
+
+button:hover .github-inline {
+    filter: invert(0);
+    transform: scale(1.2);
+}
+
+.github-inline {
+    margin-bottom: -3.5px;
+    margin-right: 1px;
+    filter: invert(1);
+}
+
+.toggler{
+    position: absolute;
+    background-color: #333;
+    cursor: pointer;
+    left: 0; 
+    font-size: medium;
+    color: #fff;
+    margin-top: 0;
+}
+
